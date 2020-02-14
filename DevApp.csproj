@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bounce.js\.npmignore" />
+    <None Include="wwwroot\lib\bounce.js\bounce.js" />
+    <None Include="wwwroot\lib\bounce.js\bounce.min.js" />
+    <None Include="wwwroot\lib\bounce.js\README.md" />
+    <None Include="wwwroot\lib\datatables\media\images\Sorting icons.psd" />
+    <None Include="wwwroot\lib\datatables\media\js\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\datatables\media\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\lib\datatables\Readme.md" />
+    <None Include="wwwroot\lib\jquery-ajax-unobtrusive\dist\jquery.unobtrusive-ajax.js" />
+    <None Include="wwwroot\lib\jquery-ajax-unobtrusive\dist\jquery.unobtrusive-ajax.min.js" />
+    <None Include="wwwroot\lib\jquery-ajax-unobtrusive\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="SendGrid" Version="9.12.5" />
+  </ItemGroup>
+
+</Project>

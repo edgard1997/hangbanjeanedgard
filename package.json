@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0",
+	"name": "asp.net",
+	"private": true,
+	"devDependencies": {
+		"jquery-ajax-unobtrusive": "3.2.6",
+		"datatables": "1.10.18",
+		"bouncerjs": "0.1.1"
+	},
+	"dependencies": {
+		"bounce.js": "^0.8.2"
+
+	}
+}

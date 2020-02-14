@@ -1,0 +1,37 @@
+{
+  "_from": "bounce.js@^0.8.2",
+  "_id": "bounce.js@0.8.2",
+  "_inBundle": false,
+  "_integrity": "sha1-Pp684lPnK0L0F4tcgdtIU41nSoM=",
+  "_location": "/bounce.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "bounce.js@^0.8.2",
+    "name": "bounce.js",
+    "escapedName": "bounce.js",
+    "rawSpec": "^0.8.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.8.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bounce.js/-/bounce.js-0.8.2.tgz",
+  "_shasum": "3e9ebce253e72b42f4178b5c81db48538d674a83",
+  "_spec": "bounce.js@^0.8.2",
+  "_where": "C:\\Users\\Marc\\source\\repos\\DevApp",
+  "author": {
+    "name": "Joel Besada"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Generate beautiful CSS3 powered animations",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "main": "bounce.js",
+  "name": "bounce.js",
+  "version": "0.8.2"
+}
